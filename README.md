@@ -26,7 +26,9 @@
 
 1. Download `interstice.cia` from the [latest release](../../releases/latest).
 2. Copy it to your SD card (for example in `/cias/`), open FBI → *SD* → the file → *Install*.
-   *Or*: in FBI choose *Remote Install* → *Scan QR code* and scan the QR code on the release page.
+   *Or*: in FBI choose *Remote Install* → *Scan QR code* and scan this code (it downloads the latest `.cia` of v0.1.0):
+
+   ![QR code FBI](qr-fbi.png)
 3. Launch **Interstice** from the HOME Menu. A `.3dsx` is also provided for the Homebrew Launcher.
 
 *Copiez le `.cia` sur la carte SD, installez-le avec FBI (ou par QR code), puis lancez le jeu depuis le menu HOME. jeu optimisé pour la New 3DS ; Old 3DS non testée.*
