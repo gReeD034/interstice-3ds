@@ -1,3 +1,4 @@
+<img width="1774" height="887" alt="banniere" src="https://github.com/user-attachments/assets/c1e2d7f1-9132-4288-aa88-393d0d0a632c" />
 # Interstice
 
 **A grimdark real-time strategy game for the New Nintendo 3DS XL** (homebrew, unofficial). Factory-style production chains without conveyor belts, two very different factions, 80 units per side, 3D battlefield on the top screen and a full command interface on the touch screen.
