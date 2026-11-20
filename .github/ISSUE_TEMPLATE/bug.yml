@@ -1,0 +1,32 @@
+name: Bug report / Bug
+description: Something is broken or crashes / Quelque chose ne marche pas ou plante
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version (shown in the pause menu / affichée dans le menu pause)
+    validations:
+      required: true
+  - type: dropdown
+    id: console
+    attributes:
+      label: Console
+      options: [New 3DS XL, New 3DS, Old 3DS / 2DS (untested), Emulator]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? What did you expect? / Que s'est-il passé ?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Comment le reproduire
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional) / Journal (facultatif)
+      description: Attach the latest file from sdmc:/3ds/interstice/logs/ (drag it into the issue) / Joignez le dernier fichier de sdmc:/3ds/interstice/logs/.

@@ -1,0 +1,11 @@
+name: Feedback / Avis
+description: Impressions, balance, ideas / Impressions, équilibrage, idées
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: avis
+    attributes:
+      label: Your feedback / Votre avis
+      description: Faction, difficulty, what you liked, what was frustrating / Faction, difficulté, ce que vous avez aimé ou non.
+    validations:
+      required: true
